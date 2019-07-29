@@ -24,5 +24,6 @@ public class RuntimeTest
                 + rt.totalMemory());
         System.out.println("可用最大内存数："
                 + rt.maxMemory());
+
     }
 }

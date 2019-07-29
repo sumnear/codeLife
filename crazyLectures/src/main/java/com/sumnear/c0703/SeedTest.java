@@ -35,5 +35,40 @@ public class SeedTest
 		System.out.println("r3.nextInt():\t\t" + r3.nextInt());
 		System.out.println("r3.nextDouble():\t" + r3.nextDouble());
 		System.out.println("r3.nextGaussian():\t" + r3.nextGaussian());
+		testSeed();
+	}
+
+	/**
+	 * 在多个线程中相同的seed还是会输出一样的值
+	 */
+	private static void testSeed(){
+		new Thread(new Runnable()
+		{
+			@Override
+			public void run()
+			{
+				Random r1 = new Random(50);
+				System.out.println("第ttt个种子为50的Random对象");
+				System.out.println("r1.nextBoolean():\t" + r1.nextBoolean());
+				System.out.println("r1.nextInt():\t\t" + r1.nextInt());
+				System.out.println("r1.nextDouble():\t" + r1.nextDouble());
+				System.out.println("r1.nextGaussian():\t" + r1.nextGaussian());
+				System.out.println("---------------------------");
+			}
+		}).start();
+		new Thread(new Runnable()
+		{
+			@Override
+			public void run()
+			{
+				Random r1 = new Random(50);
+				System.out.println("第rrr个种子为50的Random对象");
+				System.out.println("r1.nextBoolean():\t" + r1.nextBoolean());
+				System.out.println("r1.nextInt():\t\t" + r1.nextInt());
+				System.out.println("r1.nextDouble():\t" + r1.nextDouble());
+				System.out.println("r1.nextGaussian():\t" + r1.nextGaussian());
+				System.out.println("---------------------------");
+			}
+		}).start();
 	}
 }

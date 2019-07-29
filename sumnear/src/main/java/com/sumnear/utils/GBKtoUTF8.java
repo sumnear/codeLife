@@ -47,7 +47,6 @@ public class GBKtoUTF8 {
             BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(dest.getAbsolutePath()+File.separator+source.getName())),"utf-8"));
             String line=null;
             while((line=reader.readLine())!=null){
-                System.out.println(line);
                 writer.write(line+"\n");
             }
             reader.close();
@@ -59,6 +58,6 @@ public class GBKtoUTF8 {
     }
     public static void main(String[] args) {
 
-        new GBKtoUTF8().visit(new File("D:\\随书源码\\疯狂JAVA讲义第三版光盘内容"),new File("D:\\随书源码\\target"));
+        new GBKtoUTF8().visit(new File("D:\\随书源码\\designPatternn"),new File("D:\\随书源码\\target"));
     }
 }

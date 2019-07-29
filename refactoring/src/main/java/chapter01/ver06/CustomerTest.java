@@ -1,9 +1,6 @@
 package chapter01.ver06;
 
 
-import refactoring.chapter01.ver01.Customer;
-import refactoring.chapter01.ver01.Movie;
-import refactoring.chapter01.ver01.Rental;
 
 public class CustomerTest
 {

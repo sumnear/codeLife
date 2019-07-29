@@ -51,8 +51,12 @@ public class Arith
 	{
 		System.out.println("0.05 + 0.01 = "
 			+ Arith.add(0.05 , 0.01));
+		System.out.println("0.05 + 0.01 = "
+				+ (0.05 + 0.01));
 		System.out.println("1.0 - 0.42 = "
 			+ Arith.sub(1.0 , 0.42));
+		System.out.println("1.0 - 0.42 = "
+				+ (1.0 - 0.42));
 		System.out.println("4.015 * 100 = "
 			+ Arith.mul(4.015 , 100));
 		System.out.println("123.3 / 100 = "

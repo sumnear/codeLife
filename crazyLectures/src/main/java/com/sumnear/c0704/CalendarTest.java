@@ -60,6 +60,7 @@ public class CalendarTest
 		// YEAR字段不会改变，2003年2月只有28天
 		cal4.roll(MONTH, 6); //2003-8-31 => 2003-2-28
 		System.out.println(cal4.getTime());
+
 	}
 }
 
