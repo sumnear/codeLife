@@ -8,6 +8,15 @@
     <artifactId>crazyLectures</artifactId>
     <version>1.0-SNAPSHOT</version>
     <description>疯狂JAVA讲义</description>
+   <dependencies>
+       <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+       <dependency>
+           <groupId>dom4j</groupId>
+           <artifactId>dom4j</artifactId>
+           <version>1.6.1</version>
+       </dependency>
+   </dependencies>
+
 
     <build>
         <plugins>

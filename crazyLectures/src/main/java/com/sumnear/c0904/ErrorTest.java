@@ -21,6 +21,18 @@ public class ErrorTest
 			to.add(ele);
 		}
 	}
+	static void test2(Collection<? extends Number> from, Collection<Number> to)
+	{
+		for (Number ele : from)
+		{
+			to.add(ele);
+		}
+	}
+	static void fromArrayToCollection(Object[] a,Collection<Object> c){
+		for(Object o : a){
+			c.add(o);
+		}
+	}
 	public static void main(String[] args)
 	{
 		List<Object> as = new ArrayList<>();
