@@ -43,7 +43,7 @@ public class URLClassLoaderTest
 	public static void main(String[] args)throws Exception
 	{
 		System.out.println(getConn("jdbc:mysql://localhost:3306/mysql"
-			, "root" , "32147"));
+			, "root" , "123456"));
 	}
 }
 

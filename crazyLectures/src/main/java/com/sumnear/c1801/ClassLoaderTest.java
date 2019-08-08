@@ -24,10 +24,10 @@ public class ClassLoaderTest
 	{
 		ClassLoader cl = ClassLoader.getSystemClassLoader();
 		// 下面语句仅仅是加载Tester类
-		cl.loadClass("Tester");
+		cl.loadClass("com.sumnear.c1801.Tester");
 		System.out.println("系统加载Tester类");
 		// 下面语句才会初始化Tester类
-		Class.forName("Tester");
+		Class.forName("com.sumnear.c1801.Tester");
 	}
 }
 

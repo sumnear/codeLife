@@ -55,6 +55,7 @@ public class CompileClassLoader extends ClassLoader
 		return ret == 0;
 	}
 	// 重写ClassLoader的findClass方法
+	@Override
 	protected Class<?> findClass(String name)
 		throws ClassNotFoundException
 	{
