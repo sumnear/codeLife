@@ -8,9 +8,6 @@
     <artifactId>sumnear</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>docx4jDemo</module>
-    </modules>
 
     <build>
         <plugins>
