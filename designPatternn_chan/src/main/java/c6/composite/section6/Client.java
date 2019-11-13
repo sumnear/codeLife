@@ -96,6 +96,6 @@ public class Client {
 		}
 		return info;
 	}
-	
+
 
 }

@@ -76,9 +76,11 @@ public class geekBangDownload
     {
         try {
 
-            String baseUrl = "https://media001.geekbang" +
-                    ".org/95528eafdaa347d1aef3e3cdeeecb4b4/7fe52771f3264ea0a5ae827d1244c3e5-6b7a1c6fb0b7822806f1403d1f8cc479-sd-encrypt-stream-";
-            for (int i = 1; i < 23; i++) {
+//            String baseUrl = "https://media001.geekbang" +
+//                    ".org/95528eafdaa347d1aef3e3cdeeecb4b4/7fe52771f3264ea0a5ae827d1244c3e5-6b7a1c6fb0b7822806f1403d1f8cc479-sd-encrypt-stream-";
+            String baseUrl = "https://res001.geekbang.org//media/audio/6f/0b/6f39e01ae78383a982af0d130dc2220b/ld/ld" +
+                    "-";
+            for (int i = 1; i < 55; i++) {
                 String tempUrl;
                 String name;
                 if (i < 10) {
@@ -87,7 +89,7 @@ public class geekBangDownload
                     name = "000" + i + ".ts";
                 }
                 tempUrl = baseUrl + name;
-                downLoadFromUrl(tempUrl,i+".ts", "E:\\data\\");
+                downLoadFromUrl(tempUrl,name, "E:\\data\\");
 //                downLoadFromUrl(tempUrl,
 //                        "7fe52771f3264ea0a5ae827d1244c3e5-6b7a1c6fb0b7822806f1403d1f8cc479-sd-encrypt-stream-" + name , "E:\\data\\");
             }

@@ -15,13 +15,15 @@ public class Client {
 		
 		//首先是电梯门开启，人进去
 		lift.open();
-		
+		//下面两个行为是做不了的
+		lift.open();
+		lift.run();
 		//然后电梯门关闭
 		lift.close();
 		
 		//再然后，电梯跑起来，向上或者向下
 		lift.run();
-		
+		lift.run();
 		//最后到达目的地，电梯挺下来
 		lift.stop();
 	}

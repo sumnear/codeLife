@@ -14,5 +14,6 @@ public class Client {
 		//开始演戏
 		role.accept(actor);
 		role.accept(new OldActor());
+//		actor.act(role);
 	}
 }

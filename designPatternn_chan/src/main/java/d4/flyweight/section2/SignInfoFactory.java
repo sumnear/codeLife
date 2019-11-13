@@ -12,10 +12,10 @@ public class SignInfoFactory {
 
 	static {
 		// 初始化对象池
-		for (int i = 0; i < 1114; i++) {
+		for (int i = 0; i < 114; i++) {
 			String subject = "科目" + i;
 			// 初始化地址
-			for (int j = 0; j < 1130; j++) {
+			for (int j = 0; j < 130; j++) {
 				String key = subject + "考试地点" + j;
 				SignInfoFactory.getSignInfo(key);
 			}
