@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springBoot_2X/xxChapter1" />
+    <file type="web" url="file://$PROJECT_DIR$/springBoot_2X/xxChapter3" />
+    <file type="web" url="file://$PROJECT_DIR$/springBoot_2X/xxChapter4" />
+    <file type="web" url="file://$PROJECT_DIR$/springBoot_shizhan/springMVC" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/crazyLectures/pom.xml" />
+        <option value="$PROJECT_DIR$/sumnear/pom.xml" />
+        <option value="$PROJECT_DIR$/refactoring/pom.xml" />
+        <option value="$PROJECT_DIR$/designPatternn_chan/pom.xml" />
+        <option value="$PROJECT_DIR$/commons/pom.xml" />
+        <option value="$PROJECT_DIR$/open/pom.xml" />
+        <option value="$PROJECT_DIR$/open/docx4jDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/algorithm_hui/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot_shizhan/spring4/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot_shizhan/springMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot_shizhan/ch6/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot_shizhan/ch7/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot_shizhan/ch8/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot_shizhan/springCloud/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot_2X/xxChapter1/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot_2X/xxChapter2/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot_2X/xxChapter3/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot_2X/xxChapter4/pom.xml" />
+        <option value="$PROJECT_DIR$/netty_redis_zookeeper/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://E:/idea_artifacte/codeLife/compiler_output" />
+  </component>
+</project>

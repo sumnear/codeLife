@@ -28,6 +28,7 @@ public class CharsetTransform
 		cbuff.put('悟');
 		cbuff.put('空');
 		cbuff.flip();
+		System.out.println(cbuff);
 		// 将CharBuffer中的字符序列转换成字节序列
 		ByteBuffer bbuff = cnEncoder.encode(cbuff);
 		// 循环访问ByteBuffer中的每个字节
