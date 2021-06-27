@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/springBoot_shizhan/ch6/ch6.iml" filepath="$PROJECT_DIR$/springBoot_shizhan/ch6/ch6.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot_shizhan/ch7/ch7.iml" filepath="$PROJECT_DIR$/springBoot_shizhan/ch7/ch7.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot_shizhan/ch8/ch8.iml" filepath="$PROJECT_DIR$/springBoot_shizhan/ch8/ch8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot_2X/xxChapter1/chapter1.iml" filepath="$PROJECT_DIR$/springBoot_2X/xxChapter1/chapter1.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty_redis_zookeeper/chatcommon/chatCommon.iml" filepath="$PROJECT_DIR$/netty_redis_zookeeper/chatcommon/chatCommon.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/codeLife.iml" filepath="$PROJECT_DIR$/.idea/codeLife.iml" />
       <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
@@ -34,7 +35,6 @@
       <module fileurl="file://$PROJECT_DIR$/springBoot_shizhan/springMVC/springMVC.iml" filepath="$PROJECT_DIR$/springBoot_shizhan/springMVC/springMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/sumnear/sumnear.iml" filepath="$PROJECT_DIR$/sumnear/sumnear.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot_shizhan/springCloud/ui/ui.iml" filepath="$PROJECT_DIR$/springBoot_shizhan/springCloud/ui/ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springBoot_2X/xxChapter1/xxChapter1.iml" filepath="$PROJECT_DIR$/springBoot_2X/xxChapter1/xxChapter1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot_2X/xxChapter2/xxChapter2.iml" filepath="$PROJECT_DIR$/springBoot_2X/xxChapter2/xxChapter2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot_2X/xxChapter3/xxChapter3.iml" filepath="$PROJECT_DIR$/springBoot_2X/xxChapter3/xxChapter3.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot_2X/xxChapter4/xxChapter4.iml" filepath="$PROJECT_DIR$/springBoot_2X/xxChapter4/xxChapter4.iml" />

@@ -26,7 +26,6 @@
         <option value="$PROJECT_DIR$/springBoot_shizhan/ch7/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot_shizhan/ch8/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot_shizhan/springCloud/pom.xml" />
-        <option value="$PROJECT_DIR$/springBoot_2X/xxChapter1/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot_2X/xxChapter2/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot_2X/xxChapter3/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot_2X/xxChapter4/pom.xml" />
@@ -35,6 +34,6 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://E:/idea_artifacte/codeLife/compiler_output" />
+    <output url="file://$PROJECT_DIR$/../../../idea_artifacte/codeLife/compiler_output" />
   </component>
 </project>

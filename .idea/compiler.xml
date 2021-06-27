@@ -8,32 +8,32 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ch8" />
         <module name="ch7" />
-        <module name="ch6" />
+        <module name="springMVC" />
         <module name="ZookeeperDemos" />
         <module name="ui" />
-        <module name="CoccurrentDemos" />
         <module name="NIODemos" />
         <module name="netty_redis_zookeeper" />
         <module name="docx4jDemo" />
         <module name="xxChapter4" />
         <module name="some" />
         <module name="xxChapter2" />
-        <module name="xxChapter1" />
         <module name="xxChapter3" />
-        <module name="springMVC" />
+        <module name="chapter1" />
         <module name="discovery" />
         <module name="chatCommon" />
+        <module name="refactoring" />
         <module name="spring4" />
         <module name="NettyDemos" />
         <module name="RedisDemos" />
         <module name="person" />
         <module name="commons" />
-        <module name="refactoring" />
-        <module name="config" />
+        <module name="crazyLectures" />
+        <module name="CoccurrentDemos" />
         <module name="designPatternn_chan" />
         <module name="monitor" />
+        <module name="config" />
         <module name="algorithm_hui" />
-        <module name="crazyLectures" />
+        <module name="ch6" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -66,7 +66,7 @@
       <module name="springMVC" target="1.8" />
       <module name="sumnear" target="1.8" />
       <module name="ui" target="1.8" />
-      <module name="xxChapter1" target="1.8" />
+      <module name="xxChapter1" target="1.5" />
       <module name="xxChapter2" target="1.8" />
       <module name="xxChapter3" target="1.8" />
       <module name="xxChapter4" target="1.8" />
@@ -75,6 +75,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chapter1" options="-parameters" />
       <module name="xxChapter1" options="-parameters" />
       <module name="xxChapter2" options="-parameters" />
       <module name="xxChapter3" options="-parameters" />
